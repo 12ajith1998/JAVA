@@ -1,3 +1,4 @@
+# ((( JAVA PROGRAMMING LANGUAGE )))
 # What is Java?
 Java is a popular programming language, created in 1995.
 
@@ -45,14 +46,7 @@ On April 2, 2010, James Gosling resigned from Oracle.
 In January 2016, Oracle announced that Java run-time environments based on JDK 9 will discontinue the browser plugin.
 
 Java software runs on everything from laptops to data centers, game consoles to scientific supercomputers.
-# Principles
-There were five primary goals in the creation of the Java language:
 
-It must be simple, object-oriented, and familiar.
-It must be robust and secure.
-It must be architecture-neutral and portable.
-It must execute with high performance.
-It must be interpreted, threaded, and dynamic.
 # References
 Gosling, James; Joy, Bill; Steele, Guy; Bracha, Gilad; Buckley, Alex (2014). The Java® Language Specification (PDF) (Java SE 8 ed.).
 Gosling, James; Joy, Bill; Steele, Guy L., Jr.; Bracha, Gilad (2005). The Java Language Specification (3rd ed.). Addison-Wesley.
