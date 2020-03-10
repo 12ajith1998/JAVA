@@ -1,4 +1,30 @@
 # Java (programming language)
+# What is Java?
+Java is a popular programming language, created in 1995.
+
+It is owned by Oracle, and more than 3 billion devices run Java.
+
+It is used for:
+
+Mobile applications (specially Android apps)
+Desktop applications
+Web applications
+Web servers and application servers
+Games
+Database connection
+And much, much more!
+
+# Why Use Java?
+Java works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc.)
+It is one of the most popular programming language in the world
+It is easy to learn and simple to use
+It is open-source and free
+It is secure, fast and powerful
+It has a huge community support (tens of millions of developers)
+Java is an object oriented language which gives a clear structure to programs and allows code to be reused, lowering development costs
+As Java is close to C++ and C#, it makes it easy for programmers to switch to Java or vice versa
+
+
 Java is a general-purpose programming language that is class-based, object-oriented, and designed to have as few implementation dependencies as possible. It is intended to let application developers write once, run anywhere (WORA), meaning that compiled Java code can run on all platforms that support Java without the need for recompilation.Java applications are typically compiled to bytecode that can run on any Java virtual machine (JVM) regardless of the underlying computer architecture. The syntax of Java is similar to C and C++, but it has fewer low-level facilities than either of them. As of 2019, Java was one of the most popular programming languages in use according to GitHub,particularly for client-server web applications, with a reported 9 million developers.
 
 Java was originally developed by James Gosling at Sun Microsystems (which has since been acquired by Oracle) and released in 1995 as a core component of Sun Microsystems' Java platform. The original and reference implementation Java compilers, virtual machines, and class libraries were originally released by Sun under proprietary licenses. As of May 2007, in compliance with the specifications of the Java Community Process, Sun had relicensed most of its Java technologies under the GNU General Public License. Meanwhile, others have developed alternative implementations of these Sun technologies, such as the GNU Compiler for Java (bytecode compiler), GNU Classpath (standard libraries), and IcedTea-Web (browser plugin for applets).
