@@ -7,7 +7,8 @@ class File_notFound_Demo {
 		try { 
 			File file = new File("E://file.txt"); 
 			FileReader fr = new FileReader(file); 
-		} catch (FileNotFoundException e) { 
+		} catch (FileNotFoundException e) 
+		{ 
 		System.out.println("File does not exist"); 
 		} 
 	} 
