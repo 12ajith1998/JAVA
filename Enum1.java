@@ -7,7 +7,7 @@ public class Enum1
 
 	public static void main(String[] args) 
 	{ 
-		Color c1 = Color.RED; 
-		System.out.println(c1); 
+		Color DD = Color.RED; 
+		System.out.println(DD); 
 	} 
 }
