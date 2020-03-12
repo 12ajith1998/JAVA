@@ -16,8 +16,9 @@ public class CalculatorApp
 	 num2=numbers.nextInt();
 	 assert(num2>0):"The number should be greater than 0";
 	 System.out.println("Enter the operator");
+	 Scanner operator=new Scanner(System.in);
 	 op=operator.nextLine();
-	 assert ((op.equals(""+")) || (op.equals("-"))  ||  (op.equals("*")) || (op.equals("/")) ):"The operator is not valid.";
+	 assert ((op.equals("+")) || (op.equals("-"))  ||  (op.equals("*")) || (op.equals("/")) ):"The operator is not valid.";
 	 		 if(op.equals("+"))
 	 		 {
 	 			 res=num1+num2;
@@ -48,3 +49,4 @@ public class CalculatorApp
 	         System.out.println("The result is"+res);
 	         }
  }
+
