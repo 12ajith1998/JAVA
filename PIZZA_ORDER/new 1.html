@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="utf-8"/>
+<title>
+Pizza palace</title>
+<link rel="stylesheet" href="new 1.css"/>
+</head>
+<body>
+<h1>
+<center>PIZZA PALACE</center>
+</h1>
+<head>
+    <title>Title of the document</title>
+    <style>
+      marquee{
+      font-size: 30px;
+      font-weight: 800;
+      color: #8ebf42;
+      font-family: sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <marquee>Please place your order here</marquee>
+  </body>
+
+</br>
+Please choose the type of pizza which you want to buy 
+
+<div>
+  <input type="checkbox" id="pizza" name="small"
+         checked>
+  <label for="small">Small</label>
+</div>
+
+<div>
+  <input type="checkbox" id="pizza" name="medium"><or/>
+  <label for="medium">Medium</label>
+</div>
+<div>
+  <input type="checkbox" id="pizza" name="large"><or/>
+  <label for="pizza">Large</label>
+</div>
+
+<div>
+  <input type="checkbox" id="pizza" name="x-large"><or/>
+  <label for="pizza">X-Large</label>
+</div>
+
+</br>
+Do you want extra<div>
+  <input type="checkbox" id="pizza" name="small">
+         
+  <label for="small">Sauce</label>
+
+
+
+  <input type="checkbox" id="pizza" name="medium">
+  <label for="medium">Cheese</label>
+  <input type="checkbox" id="pizza" name="medium">
+  <label for="medium">Gluten free lust</label>
+  <br/>
+ 
+</div>
+
+<br/>
+<div class="form-group">
+  <form action="/cart/add" method="POST">
+    <input name="quantity" type="hidden" value="1" />
+    <input name="product_id" type="hidden" value="91801160" /> 
+    <input name="product_name" type="hidden" value="Red Hat" /> 
+    <button class="add-button" type="submit">Add to Cart!</button>
+  </form>
+</div>
+<br/>
+ <input type="submit" value="Place Order">
+ <input type="reset" value="Clear">
+ <body>
+ <table border=1>
+ <caption> Price List</caption>
+ <td colspan=1>Small=$12.99</td>
+ <td colspan=1>Medium=$14.99</td>
+ <td colspan=1>Large=$16.99</td>
+ <td colspan=1>X-Large=$18.99</td>
+ <td colspan=1>Extra Sauce=$1.00</td>
+ <td colspan=1>Extra Cheese=$2.00</td>
+ <td colspan=1>Gluten Free Crust=$2.50</td>
+ 
+ </body>
