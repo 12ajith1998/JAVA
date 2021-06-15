@@ -8,7 +8,12 @@ public class Linked {
 		list.insert(34);
 		list.insert(12);
 		list.insert(75);
+		list.insert(44);
+		list.insertAtstart(99);
+		list.insertAtstart(33);
+		list.insertAt(0,55);
 		
+		list.deleteAt(2);
 		list.show();
 	}
 }
@@ -37,6 +42,53 @@ class LinkedList
 			n.next=node;
 		}
 	}
+	public void insertAtstart(int data)
+	{
+		Node node=new Node();
+		node.data=data;
+		node.next=null;
+		
+		node.next=head;
+		head=node;
+	}
+	public void insertAt(int index,int data)
+	{
+		Node node=new Node();
+		node.data=data;
+		node.next=null;
+		
+		if(index==0)
+		{
+			insertAtstart(data);
+		}else {
+		Node n=head;
+		for(int i=0;i<index-1;i++)
+		{
+			n=n.next;
+		}
+		node.next=n.next;
+		n.next=node;
+		}
+	}
+	public void deleteAt(int index)
+	{
+		
+		if(index==0)
+		{
+			head=head.next;
+		}else
+		{
+			Node n=head;
+			Node n1=null;
+			for(int i=0;i<index-1;i++)
+			{
+				n=n.next;
+			}
+			n1=n.next;
+			n.next=n1.next;
+			n1=null;
+		}
+	}
 	public void show() 
 	{
 		Node node=head;
@@ -47,4 +99,5 @@ class LinkedList
 		}
 		System.out.println(node.data);
 	}
+	
 }
