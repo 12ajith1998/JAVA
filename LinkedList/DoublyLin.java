@@ -8,12 +8,14 @@ public class DoublyLin {
 		list.push(23);
 		list.push(11);
 		list.push(78);
-//		list.push(66);
+		list.push(66);
 		
 		list.insertAfter(list.head.next.next,8);
 		
 		list.append(77);
 		list.append(89);
+		
+		list.deleteNode(list.head.next.prev);
 		
 		list.show();
 	}
@@ -71,6 +73,29 @@ class DoublyLinkedList
 		}
 		last.next=n;
 		n.prev=last;
+	}
+	public void deleteNode(Node del)
+	{
+		if(head==null || del==null)
+		{
+			return;
+		}
+		
+		if(head==del)
+		{
+			head=del.next;
+		}
+		
+		if(del.next!=null)
+		{
+			del.next.prev=del.prev;
+		}
+		if(del.prev!=null)
+		{
+			del.prev.next=del.next;
+		}
+		
+		return;
 	}
 	public void show()
 	{
